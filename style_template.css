@@ -73,9 +73,6 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-}
-
 /* Splash Section */
 .splash {
     display: flex;
@@ -92,7 +89,6 @@ footer a:hover {
     border-radius: 50%;
     border: 3px solid #4c4c4c;
     transition: transform 0.3s ease;
-    display: block; 
 }
 
 .splash img:hover {
@@ -170,20 +166,17 @@ hr {
 }
 
 @media (max-width: 1200px) {
+
     .row {
         flex-direction: column;
         align-items: center;
     }
 
-    .three-col {
-        grid-template-columns: 1fr; 
-    }
 }
 
 /* Sections */
 
 /* Section Headings */
-section h2 {}
 
 #education, #awards, #skills, #experience {
     padding: 20px;
@@ -200,7 +193,7 @@ section h2 {}
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-#education h2, #awards h2, #skills h2, #experience h2{
+#education h2, #awards h2, #skills h2, #experience h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
@@ -215,9 +208,6 @@ section h2 {}
 #education p strong {
     color: #222;
 }
-
-/* Paragraph Styles */
-section p {}
 
 /* link styles */
 section a {
@@ -338,7 +328,6 @@ dl dd {
 }
 
 /* Contact Page Styles */
-
 .one-col {
     display: flex;
     flex-direction: column;
@@ -407,13 +396,14 @@ form button:hover {
 }
 
 @media (max-width: 600px) {
+
     .one-col {
         max-width: 300px;
     }
+    
 }
 
 /* Thank You Page Styles */
-
 #thankyou {
     display: flex;
     flex-direction: column;
